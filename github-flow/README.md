@@ -24,14 +24,11 @@ This is a visual guide to implement automation of the DevOps processes for each 
 - [Draw.io Desktop](https://github.com/jgraph/drawio-desktop/releases)
 
 ## Code
-- Draw.io diagram to review [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-github/-/blob/main/GitHub_Flow.drawio)
+- [](/github-flow/GitHub_Flow.drawio)
 - Diagram can be used to modify for your organizations preferences
 
-## APG
-Please reference the internal [APG artifact](https://apg-library.amazonaws.com/content/780a5bce-3cd2-4092-8537-b7a77c3d6b8d) for further information.
-
 ## Diagram
-![GitHub Flow Branching Strategy](GitHub_Flow.drawio.png)
+![GitHub Flow Branching Strategy](/github-flow/GitHub_Flow.drawio.png)
 
 ## Best Practices
 DevOps practices vary across organizations and this guide is intended to be used as a quick start and discussion starter for the organization or development teams within it.

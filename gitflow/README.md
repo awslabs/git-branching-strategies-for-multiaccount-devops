@@ -28,14 +28,11 @@ This is a visual guide to implement automation of the DevOps processes for each 
 - [GitFlow plugin](https://github.com/nvie/gitflow), optional
 
 ## Code
-- Draw.io diagram to review [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-gitflow/-/blob/main/GitFlowBranchingWithDevopsOverview.drawio)
+- Draw.io diagram to review [here](/gitflow/GitFlowBranchingWithDevopsOverview.drawio)
 - Diagram can be used to modify for your organizations preferences
 
-## APG
-Please reference the internal [APG artifact](https://apg-library.amazonaws.com/content/1dee2a06-cc54-4797-b9a9-78b6685edd33) for further information.
-
 ## Diagram
-![GitFlow Branching Strategy](GitFlowBranchingWithDevopsOverview.drawio.png)
+![GitFlow Branching Strategy](/gitflow/GitFlowBranchingWithDevopsOverview.drawio.png)
 
 ------------------
 

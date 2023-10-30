@@ -5,7 +5,7 @@ Clients that are implementing DevOps processes would benefit from a visual guide
 
 This guide provides a visual diagram to illustrate how a DevOps process following Trunk could be implemented by an organization. This guide also includes recommended tasks to perform at each step in the DevOps process.
 
-The linked [Git repository](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-trunk/) contains a [diagram](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-trunk/-/blob/main/TrunkBranchingWithDevopsOverview.drawio) outlining the recommendations and can be used like a [punnett square](https://en.wikipedia.org/wiki/Punnett_square) to line up the branches on the horizontal axis with the AWS environments on the vertical axis to determine what actions to perform in each scenario.
+The linked Git repository contains a diagram outlining the recommendations and can be used like a [punnett square](https://en.wikipedia.org/wiki/Punnett_square) to line up the branches on the horizontal axis with the AWS environments on the vertical axis to determine what actions to perform in each scenario.
 
 The numbers in circles are to be used as a guide to help understand the order in which to follow the diagram with an example feature all the way to production deployment. 
 
@@ -24,14 +24,11 @@ This is a visual guide to implement automation of the DevOps processes for each 
 - [Draw.io Desktop](https://github.com/jgraph/drawio-desktop/releases)
 
 ## Code
-- Draw.io diagram to review [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-trunk/-/blob/main/TrunkBranchingWithDevopsOverview.drawio)
+- [Trunk Git DevOps Diagram](/trunk/TrunkBranchingWithDevopsOverview.drawio)
 - Diagram can be used to modify for your organizations preferences
 
-## APG
-Please reference the internal [APG artifact](https://apg-library.amazonaws.com/content/5df23e4d-84fe-4ab3-a54f-96b6406abc57) for further information.
-
 ## Diagram
-![Trunk Branching Strategy](TrunkBranchingWithDevopsOverview.drawio.png)
+![Trunk Branching Strategy](/trunk/TrunkBranchingWithDevopsOverview.drawio.png)
 
 ## Best Practices
 DevOps practices vary across organizations and this guide is intended to be used as a quick start and discussion starter for the organization or development teams within it.

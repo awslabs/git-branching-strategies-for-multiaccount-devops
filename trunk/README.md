@@ -307,9 +307,19 @@ The Production environment supporting the released product, handling real data b
 
 
 ## Related Resources
-There are many good resources for Git training on the web and this guide will not attempt to perform Git training. 
-
+There are many good resources for Git training on the web and this guide is not intended to teach comprehensive Git training. 
 - [12 Factor App - Build once, deploy many strategy](https://12factor.net/)
+
+# Additional Git Branching Strategies
+### GitFlow
+GitFlow is a branching model that involves the use of feature branches and multiple other named primary branches to move code between development and production. GitFlow works well for teams that have scheduled release cycles and a need to define a collection of features as a release. Development is completed in individual feature branches that are merged with approval into an integration branch where they should be considered ready for production. Once enough features have accumulated in the integration branch, a release is created for deployments to upper level environments. This separation allows for better control over what changes are moving to which named environment on a schedule. This process can be accelerated into a faster deployment model if necessary.
+
+Additional information for [GitFlow Git Branching Strategies](/gitflow/README.md) is available.
+
+### GitHub Flow
+GitHub Flow is a lightweight, branch-based workflow that is designed to be simple and easy to use. It was developed by GitHub, the popular web-based hosting service for software development projects. GitHub Flow is based on the idea of short-lived feature branches that are merged into the main branch (usually called "master" or "main") when the feature is complete and ready to be deployed.
+
+Additional information for [GitHub Flow Git Branching Strategies](/github-flow/README.md) is available.
 
 ## Additional information
 If you are unsure where to start your team’s journey to using Git and DevOps processes the authors recommend picking a standard solution and try what works.

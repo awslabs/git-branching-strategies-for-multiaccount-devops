@@ -414,7 +414,7 @@ Releases should be merged back into main and develop as soon as is reasonable to
 Do NOT utilize squash merges except when merging from feature to develop.  Using squash merges in higher branches will cause difficulty merging changes back down.
 
 ## Related Resources
-There are many good resources for Git training on the web and this guide will not attempt to perform Git training. 
+There are many good resources for Git training on the web and this guide is not intended to teach comprehensive Git training.  
 
 - [The original GitFlow blog](https://nvie.com/posts/a-successful-git-branching-model/)
 - [Atlassian GitFlow Workshop](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
@@ -427,12 +427,12 @@ There are many good resources for Git training on the web and this guide will no
 ### Trunk
 Trunk-based development is a software development practice in which all developers work on a single branch, typically called the 'trunk' or 'main' branch. The main idea behind this approach is to keep the codebase in a continuously releasable state by integrating code changes frequently and relying on automated testing and continuous integration.
 
-You can find additional resources on this strategy [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-trunk).
+Additional information for [Trunk Git Branching Strategies](/trunk/README.md) is available.
 
 ### GitHub Flow
 GitHub Flow is a lightweight, branch-based workflow that is designed to be simple and easy to use. It was developed by GitHub, the popular web-based hosting service for software development projects. GitHub Flow is based on the idea of short-lived feature branches that are merged into the main branch (usually called "master" or "main") when the feature is complete and ready to be deployed.
 
-You can find additional resources on this strategy [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-github/).
+Additional information for [GitHub Flow Git Branching Strategies](/github-flow/README.md) is available.
 
 ## Additional information
 If you are unsure where to start your team’s journey to using Git and DevOps processes the authors recommend picking a standard solution and try what works.

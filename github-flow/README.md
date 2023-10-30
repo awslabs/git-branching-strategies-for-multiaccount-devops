@@ -319,7 +319,7 @@ The Production environment supporting the released product, handling real data b
 GitHub Flow encourages daily deployments to higher environments, embracing true CI/CD. It is imperative that the team has the engineering maturity to build features and create automation tests for them, and do an exhaustive Merge Request review before changes are approved. This fosters a robust engineering culture that promotes quality, accountability, and efficiency in the development process.
 
 ## Related Resources
-There are many good resources for Git training on the web and this guide will not attempt to perform Git training.
+There are many good resources for Git training on the web and this guide is not intended to teach comprehensive Git training. 
 
 - [GitHub Flow Quickstart](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Why GitHub Flow?](https://githubflow.github.io/)
@@ -329,13 +329,12 @@ There are many good resources for Git training on the web and this guide will no
 ### Trunk
 Trunk-based development is a software development practice in which all developers work on a single branch, typically called the 'trunk' or 'main' branch. The main idea behind this approach is to keep the codebase in a continuously releasable state by integrating code changes frequently and relying on automated testing and continuous integration.
 
-You can find additional resources on this strategy [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-trunk).
+Additional information for [Trunk Git Branching Strategies](/trunk/README.md) is available.
 
 ### GitFlow
 GitFlow is a branching model that involves the use of feature branches and multiple other named primary branches to move code between development and production. GitFlow works well for teams that have scheduled release cycles and a need to define a collection of features as a release. Development is completed in individual feature branches that are merged with approval into an integration branch where they should be considered ready for production. Once enough features have accumulated in the integration branch, a release is created for deployments to upper level environments. This separation allows for better control over what changes are moving to which named environment on a schedule. This process can be accelerated into a faster deployment model if necessary.
 
-You can find additional resources on this strategy [here](https://gitlab.aws.dev/proserve-tdx/incubator/git-branching-strategy-for-gitflow/).
-
+Additional information for [GitFlow Git Branching Strategies](/gitflow/README.md) is available.
 
 ## Additional information
 If you are unsure where to start your team’s journey to using Git and DevOps processes the authors recommend picking a standard solution and try what works. Start with a simple workflow and add complexity as needed.

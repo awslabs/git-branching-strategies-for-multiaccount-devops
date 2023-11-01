@@ -24,7 +24,7 @@ This is a visual guide to implement automation of the DevOps processes for each 
 - [Draw.io Desktop](https://github.com/jgraph/drawio-desktop/releases)
 
 ## Code
-- [](/github-flow/GitHub_Flow.drawio)
+- [Draw.io Source Diagram](/github-flow/GitHub_Flow.drawio)
 - Diagram can be used to modify for your organizations preferences
 
 ## Diagram

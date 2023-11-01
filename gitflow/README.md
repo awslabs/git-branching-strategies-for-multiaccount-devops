@@ -28,7 +28,7 @@ This is a visual guide to implement automation of the DevOps processes for each 
 - [GitFlow plugin](https://github.com/nvie/gitflow), optional
 
 ## Code
-- Draw.io diagram to review [here](/gitflow/GitFlowBranchingWithDevopsOverview.drawio)
+- [Draw.io source diagram](/gitflow/GitFlowBranchingWithDevopsOverview.drawio)
 - Diagram can be used to modify for your organizations preferences
 
 ## Diagram
@@ -88,14 +88,12 @@ GitFlow-based development does have some disadvantages, which can impact the dev
 
 1. Complexity: GitFlow is a complex pattern for new teams to learn and you must adhere to the rules of GitFlow to use this successfully. 
 1. Continuous Deployment: GitFlow doesn't fit a model where many deployments are released to production in a rapid fashion since GitFlow requires the use of multiple branches and release management flow.
-1. Branch Management: GitFlow utilizes many branches, which can become burdonsome to maintain and merge released code into to keep the branches properly aligned with each other.
+1. Branch Management: GitFlow utilizes many branches, which can become burdensome to maintain and merge released code into to keep the branches properly aligned with each other.
 1. Technical Debt: Because releases take more time than with other models, more features can accumulate for release which can cause technical debt to accumulate. 
 
 Teams should carefully consider these drawbacks when deciding whether GitFlow-based development is the right approach for their project.
 
 ---------------
-
-##DevOps Overview
 
 ## Accounts / Environments
 Most organizations have several environments or accounts outlined for use: 

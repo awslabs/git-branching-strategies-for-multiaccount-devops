@@ -3,7 +3,7 @@
 ## Summary
 Clients that are implementing DevOps processes would benefit from a visual guide to assist them in understanding how a Git branching strategy can inform deployments to different environments with their DevOps processes. Using a standard workflow for managing the source code repository like GitHub Flow will assist development teams in aligning their work as a team.
 
-This guide provides a visual diagram to illustrate how a DevOps process following GitHub Flow could be implemented by an organization. This guide also includes recommended tasks to perform at each step in the DevOps process.
+This pattern provides a visual diagram to illustrate how a DevOps process following GitHub Flow could be implemented by an organization. AWS has provided official [AWS Well-Architected DevOps Guidance](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/devops-guidance.html) and best practices and it is recommended that it is reviewed. This pattern includes pros and cons to using the GitFlow pattern, please use due diligence to select the right branching strategy for your organization as some strategies may fit your use case better than others. This pattern includes recommended tasks to perform at each step in the DevOps process.
 
 The linked Git repository contains a diagram outlining the recommendations and can be used like a [punnett square](https://en.wikipedia.org/wiki/Punnett_square) to line up the branches on the horizontal axis with the AWS environments on the vertical axis to determine what actions to perform in each scenario.
 
@@ -318,6 +318,7 @@ GitHub Flow encourages daily deployments to higher environments, embracing true 
 ## Related Resources
 There are many good resources for Git training on the web and this guide is not intended to teach comprehensive Git training. 
 
+- [AWS Well-Architected DevOps Guidance](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/devops-guidance.html)
 - [GitHub Flow Quickstart](https://docs.github.com/en/get-started/quickstart/github-flow)
 - [Why GitHub Flow?](https://githubflow.github.io/)
 - [12 Factor App - Build once, deploy many strategy](https://12factor.net/)

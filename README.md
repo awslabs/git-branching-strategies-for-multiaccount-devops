@@ -1,19 +1,23 @@
-## Git Branching Strategies for DevOps
+# Choosing a Git branching strategy for multi-account DevOps environments
 
-## Summary
-Clients that are implementing DevOps processes would benefit from a visual guide to assist them in understanding how a Git branching strategy can inform deployments to different environments with their DevOps processes. Using a standard workflow for managing the source code repository like GitFlow, GitHub Flow, or Trunk will assist development teams in aligning their work as a team.
+Building solutions in AWS can be transformative. The modernization process implements robust software development lifecycles and DevOps practices that support automation across multiple environments. Choosing the right Git branching strategy for your organization helps you concisely communicate DevOps standards and best practices across development teams. Git branching can be simple in a single environment, but it can become confusing when applied across multiple environments, such as sandbox, development, testing, staging, and production environments. Having multiple environments increases the complexity of the DevOps implementation.
 
-This pattern provides a visual diagram to illustrate how a DevOps process following common git branching strategies could be implemented by an organization. AWS has provided official [AWS Well-Architected DevOps Guidance](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/devops-guidance.html) and best practices and it is recommended that it is reviewed. This pattern includes pros and cons to using the each strategy, please use due diligence to select the right branching strategy for your organization as some strategies may fit your use case better than others. This pattern includes recommended tasks to perform at each step in the DevOps process.
+This guide provides visual diagrams of Git branching strategies that show how an organization can implement a multi-account DevOps process. Visual guides help teams understand how to merge their Git branching strategies with their DevOps practices. Using a standard branching model, like Gitflow, GitHub Flow, or Trunk, for managing the source code repository helps development teams align their work. These teams can also use standard Git training resources on the internet to understand and implement those models and strategies.
 
-The repository contains a diagrams for each strategy outlining the recommendations and can be used like a [punnett square](https://en.wikipedia.org/wiki/Punnett_square) to line up the branches on the horizontal axis with the AWS environments on the vertical axis to determine what actions to perform in each scenario.
+For DevOps best practices on AWS, review the DevOps Guidance in [AWS Well-Architected](https://docs.aws.amazon.com/wellarchitected/latest/devops-guidance/devops-guidance.html). As you review this guide, use due diligence to select the right branching strategy for your organization. Some strategies might fit your use case better than others.
 
-The numbers in circles are to be used as a guide to help understand the order in which to follow the diagram with an example feature all the way to production deployment. 
+The code in this repository helps you set up the following target architecture.
 
-The Draw.io diagramming files are included in this repository so the visual guides can be customized to your organization.
+## [Trunk](/trunk/README.md)
+![Trunk Branching Strategy](/trunk/trunk-diagram.png)
 
-- [GitFlow](/gitflow/README.md)
-- [GitHub Flow](/github-flow/README.md)
-- [Trunk](/trunk/README.md)
+## [GitHub Flow](/github-flow/README.md)
+![GitHub Flow Branching Strategy](/github-flow/githubflow-diagram.png)
+
+## [Gitflow](/gitflow/README.md)
+![Gitflow Branching Strategy](/gitflow/gitflow-diagram.png)
+
+For prerequisites and instructions for using this AWS Prescriptive Guidance pattern, see [Pattern title](link to pattern on the external APG site).
 
 ## Security
 
@@ -22,4 +26,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-
